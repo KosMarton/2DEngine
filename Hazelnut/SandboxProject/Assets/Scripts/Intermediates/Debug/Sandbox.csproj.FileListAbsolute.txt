@@ -1,0 +1,9 @@
+C:\dev\2DGameEngine\series-scripting\Hazelnut\SandboxProject\Assets\Scripts\Binaries\Sandbox.dll
+C:\dev\2DGameEngine\series-scripting\Hazelnut\SandboxProject\Assets\Scripts\Binaries\Sandbox.pdb
+C:\dev\2DGameEngine\series-scripting\Hazelnut\SandboxProject\Assets\Scripts\Binaries\Hazel-ScriptCore.dll
+C:\dev\2DGameEngine\series-scripting\Hazelnut\SandboxProject\Assets\Scripts\Binaries\Hazel-ScriptCore.pdb
+C:\dev\2DGameEngine\series-scripting\Hazelnut\SandboxProject\Assets\Scripts\Intermediates\Debug\Sandbox.csproj.AssemblyReference.cache
+C:\dev\2DGameEngine\series-scripting\Hazelnut\SandboxProject\Assets\Scripts\Intermediates\Debug\Sandbox.csproj.CoreCompileInputs.cache
+C:\dev\2DGameEngine\series-scripting\Hazelnut\SandboxProject\Assets\Scripts\Intermediates\Debug\Sandbox.csproj.CopyComplete
+C:\dev\2DGameEngine\series-scripting\Hazelnut\SandboxProject\Assets\Scripts\Intermediates\Debug\Sandbox.dll
+C:\dev\2DGameEngine\series-scripting\Hazelnut\SandboxProject\Assets\Scripts\Intermediates\Debug\Sandbox.pdb
