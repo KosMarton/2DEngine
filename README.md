@@ -7,7 +7,7 @@
 First of all, the project is only avaiable on Windows (later in development, we will expand the project to Mac and Linux).
 Other than that you will need to have installed Visual Studio 2022 to your machine, with at least msvc17 (Visual C++ version 17) with it.
 
-<ins>**1. Clone and run **<ins>
+<ins>**1. Clone and run**<ins>
 
 Start by cloning the repository with `git clone --recursive https://github.com/KosMarton/2DEngine`.
 
