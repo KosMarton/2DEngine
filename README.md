@@ -3,7 +3,7 @@
 
 # How to start #
 
-<ins>** Prerequirements **<ins>
+<ins>** Prerequirements **</ins>
 First of all, the project is only avaiable on Windows (later in development, we will expand the project to Mac and Linux).
 Other than that you will need to have installed Visual Studio 2022 to your machine, with at least msvc17 (Visual C++ version 17) with it.
 
