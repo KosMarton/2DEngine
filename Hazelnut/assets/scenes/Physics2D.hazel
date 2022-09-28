@@ -40,6 +40,8 @@ Entities:
       FixedAspectRatio: false
     ScriptComponent:
       ClassName: Sandbox.Camera
+      ScriptFields:
+        []
   - Entity: 15045535320033348975
     TagComponent:
       Tag: Block
@@ -105,11 +107,15 @@ Entities:
     TagComponent:
       Tag: Player
     TransformComponent:
-      Translation: [0.0495706238, 0.271503896, -9.31322575e-10]
+      Translation: [0.0120342616, 0.280494362, -9.31322575e-10]
       Rotation: [0, 0, -0.235084534]
       Scale: [0.361159712, 0.375572056, 0.848135769]
     ScriptComponent:
       ClassName: Sandbox.Player
+      ScriptFields:
+        - Name: Speed
+          Type: Float
+          Data: 1.25
     SpriteRendererComponent:
       Color: [1, 1, 1, 1]
       TilingFactor: 1
