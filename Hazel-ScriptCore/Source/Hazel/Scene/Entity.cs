@@ -50,6 +50,12 @@ namespace Hazel
 
 			return new Entity(entityID);
 		}
+
+		public T As<T>() where T : Entity, new()
+		{
+			object instance = InternalCalls.GetScriptInstance(ID);
+			return instance as T;
+		}
 	
 	}
 

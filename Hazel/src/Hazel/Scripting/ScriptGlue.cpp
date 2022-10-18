@@ -40,6 +40,11 @@ namespace Hazel {
 		return glm::dot(*parameter, *parameter);
 	}
 
+	static MonoObject* GetScriptInstance(UUID entityID)
+	{
+		return ScriptEngine::GetManagedInstance(entityID);
+	}
+
 	static bool Entity_HasComponent(UUID entityID, MonoReflectionType* componentType)
 	{
 		Scene* scene = ScriptEngine::GetSceneContext();
@@ -152,6 +157,8 @@ namespace Hazel {
 		HZ_ADD_INTERNAL_CALL(NativeLog);
 		HZ_ADD_INTERNAL_CALL(NativeLog_Vector);
 		HZ_ADD_INTERNAL_CALL(NativeLog_VectorDot);
+
+		HZ_ADD_INTERNAL_CALL(GetScriptInstance);
 
 		HZ_ADD_INTERNAL_CALL(Entity_HasComponent);
 		HZ_ADD_INTERNAL_CALL(Entity_FindEntityByName);
