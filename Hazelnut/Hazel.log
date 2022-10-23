@@ -1,76 +1,64 @@
-[20:16:02] [info] HAZEL: Creating window Hazelnut (1600, 900)
-[20:16:03] [info] HAZEL: OpenGL Info:
-[20:16:03] [info] HAZEL:   Vendor: NVIDIA Corporation
-[20:16:03] [info] HAZEL:   Renderer: NVIDIA GeForce GTX 1650/PCIe/SSE2
-[20:16:03] [info] HAZEL:   Version: 4.6.0 NVIDIA 512.95
-[20:16:03] [trace] HAZEL: OpenGLShader::Reflect - GL_VERTEX_SHADER assets/shaders/Renderer2D_Quad.glsl
-[20:16:03] [trace] HAZEL:     1 uniform buffers
-[20:16:03] [trace] HAZEL:     0 resources
-[20:16:03] [trace] HAZEL: Uniform buffers:
-[20:16:03] [trace] HAZEL:   _46_48
-[20:16:03] [trace] HAZEL:     Size = 64
-[20:16:03] [trace] HAZEL:     Binding = 0
-[20:16:03] [trace] HAZEL:     Members = 1
-[20:16:03] [trace] HAZEL: OpenGLShader::Reflect - GL_FRAGMENT_SHADER assets/shaders/Renderer2D_Quad.glsl
-[20:16:03] [trace] HAZEL:     0 uniform buffers
-[20:16:03] [trace] HAZEL:     1 resources
-[20:16:03] [trace] HAZEL: Uniform buffers:
-[20:16:03] [warning] HAZEL: Shader creation took 3.9704 ms
-[20:16:03] [trace] HAZEL: OpenGLShader::Reflect - GL_VERTEX_SHADER assets/shaders/Renderer2D_Circle.glsl
-[20:16:03] [trace] HAZEL:     1 uniform buffers
-[20:16:03] [trace] HAZEL:     0 resources
-[20:16:03] [trace] HAZEL: Uniform buffers:
-[20:16:03] [trace] HAZEL:   _47_49
-[20:16:03] [trace] HAZEL:     Size = 64
-[20:16:03] [trace] HAZEL:     Binding = 0
-[20:16:03] [trace] HAZEL:     Members = 1
-[20:16:03] [trace] HAZEL: OpenGLShader::Reflect - GL_FRAGMENT_SHADER assets/shaders/Renderer2D_Circle.glsl
-[20:16:03] [trace] HAZEL:     0 uniform buffers
-[20:16:03] [trace] HAZEL:     0 resources
-[20:16:03] [trace] HAZEL: Uniform buffers:
-[20:16:03] [warning] HAZEL: Shader creation took 4.9315 ms
-[20:16:03] [trace] HAZEL: OpenGLShader::Reflect - GL_VERTEX_SHADER assets/shaders/Renderer2D_Line.glsl
-[20:16:03] [trace] HAZEL:     1 uniform buffers
-[20:16:03] [trace] HAZEL:     0 resources
-[20:16:03] [trace] HAZEL: Uniform buffers:
-[20:16:03] [trace] HAZEL:   _30_32
-[20:16:03] [trace] HAZEL:     Size = 64
-[20:16:03] [trace] HAZEL:     Binding = 0
-[20:16:03] [trace] HAZEL:     Members = 1
-[20:16:03] [trace] HAZEL: OpenGLShader::Reflect - GL_FRAGMENT_SHADER assets/shaders/Renderer2D_Line.glsl
-[20:16:03] [trace] HAZEL:     0 uniform buffers
-[20:16:03] [trace] HAZEL:     0 resources
-[20:16:03] [trace] HAZEL: Uniform buffers:
-[20:16:03] [warning] HAZEL: Shader creation took 18.5791 ms
-[20:16:03] [warning] HAZEL: Camera has 2 fields:
-[20:16:03] [warning] HAZEL:   OtherEntity (Entity)
-[20:16:03] [warning] HAZEL:   DistanceFromPlayer (Float)
-[20:16:03] [warning] HAZEL: Player has 4 fields:
-[20:16:03] [warning] HAZEL:   Speed (Float)
-[20:16:03] [warning] HAZEL:   Time (Float)
-[20:16:03] [error] HAZEL: Could not find component type Hazel.SpriteRendererComponent
-[20:16:03] [error] HAZEL: Could not find component type Hazel.CircleRendererComponent
-[20:16:03] [error] HAZEL: Could not find component type Hazel.CameraComponent
-[20:16:03] [error] HAZEL: Could not find component type Hazel.ScriptComponent
-[20:16:03] [error] HAZEL: Could not find component type Hazel.NativeScriptComponent
-[20:16:03] [error] HAZEL: Could not find component type Hazel.BoxCollider2DComponent
-[20:16:03] [error] HAZEL: Could not find component type Hazel.CircleCollider2DComponent
-[20:16:03] [trace] HAZEL: Deserializing scene 'Untitled'
-[20:16:03] [trace] HAZEL: Deserialized entity with ID = 16672940118998907085, name = Floor
-[20:16:03] [trace] HAZEL: Deserialized entity with ID = 4793924497264767156, name = Camera
-[20:16:03] [trace] HAZEL: Deserialized entity with ID = 15045535320033348975, name = Block
-[20:16:03] [trace] HAZEL: Deserialized entity with ID = 5134011587522944740, name = Floor
-[20:16:03] [trace] HAZEL: Deserialized entity with ID = 8804479042241551551, name = Circle
-[20:16:03] [trace] HAZEL: Deserialized entity with ID = 8254140920860137284, name = Player
-[20:16:08] [trace] HAZEL: Deserializing scene 'Untitled'
-[20:16:08] [trace] HAZEL: Deserialized entity with ID = 16672940118998907085, name = Floor
-[20:16:08] [trace] HAZEL: Deserialized entity with ID = 4793924497264767156, name = Camera
-[20:16:08] [trace] HAZEL: Deserialized entity with ID = 15045535320033348975, name = Block
-[20:16:08] [trace] HAZEL: Deserialized entity with ID = 5134011587522944740, name = Floor
-[20:16:08] [trace] HAZEL: Deserialized entity with ID = 8804479042241551551, name = Circle
-[20:16:08] [trace] HAZEL: Deserialized entity with ID = 8254140920860137284, name = Player
-[20:16:11] [trace] HAZEL: Deserializing scene 'Untitled'
-[20:16:11] [trace] HAZEL: Deserialized entity with ID = 8244940659429586525, name = Left
-[20:16:11] [trace] HAZEL: Deserialized entity with ID = 2335431429201735937, name = Right
-[20:16:11] [trace] HAZEL: Deserialized entity with ID = 15355018394736438603, name = Camera
-[20:16:11] [trace] HAZEL: Deserialized entity with ID = 9235617827118161440, name = Top
+[15:46:09] [info] HAZEL: Creating window Hazelnut (1600, 900)
+[15:46:10] [info] HAZEL: OpenGL Info:
+[15:46:10] [info] HAZEL:   Vendor: NVIDIA Corporation
+[15:46:10] [info] HAZEL:   Renderer: NVIDIA GeForce GTX 1650/PCIe/SSE2
+[15:46:10] [info] HAZEL:   Version: 4.6.0 NVIDIA 512.95
+[15:46:10] [trace] HAZEL: OpenGLShader::Reflect - GL_VERTEX_SHADER assets/shaders/Renderer2D_Quad.glsl
+[15:46:10] [trace] HAZEL:     1 uniform buffers
+[15:46:10] [trace] HAZEL:     0 resources
+[15:46:10] [trace] HAZEL: Uniform buffers:
+[15:46:10] [trace] HAZEL:   _46_48
+[15:46:10] [trace] HAZEL:     Size = 64
+[15:46:10] [trace] HAZEL:     Binding = 0
+[15:46:10] [trace] HAZEL:     Members = 1
+[15:46:10] [trace] HAZEL: OpenGLShader::Reflect - GL_FRAGMENT_SHADER assets/shaders/Renderer2D_Quad.glsl
+[15:46:10] [trace] HAZEL:     0 uniform buffers
+[15:46:10] [trace] HAZEL:     1 resources
+[15:46:10] [trace] HAZEL: Uniform buffers:
+[15:46:10] [warning] HAZEL: Shader creation took 5.8406 ms
+[15:46:10] [trace] HAZEL: OpenGLShader::Reflect - GL_VERTEX_SHADER assets/shaders/Renderer2D_Circle.glsl
+[15:46:10] [trace] HAZEL:     1 uniform buffers
+[15:46:10] [trace] HAZEL:     0 resources
+[15:46:10] [trace] HAZEL: Uniform buffers:
+[15:46:10] [trace] HAZEL:   _47_49
+[15:46:10] [trace] HAZEL:     Size = 64
+[15:46:10] [trace] HAZEL:     Binding = 0
+[15:46:10] [trace] HAZEL:     Members = 1
+[15:46:10] [trace] HAZEL: OpenGLShader::Reflect - GL_FRAGMENT_SHADER assets/shaders/Renderer2D_Circle.glsl
+[15:46:10] [trace] HAZEL:     0 uniform buffers
+[15:46:10] [trace] HAZEL:     0 resources
+[15:46:10] [trace] HAZEL: Uniform buffers:
+[15:46:10] [warning] HAZEL: Shader creation took 14.6941 ms
+[15:46:10] [trace] HAZEL: OpenGLShader::Reflect - GL_VERTEX_SHADER assets/shaders/Renderer2D_Line.glsl
+[15:46:10] [trace] HAZEL:     1 uniform buffers
+[15:46:10] [trace] HAZEL:     0 resources
+[15:46:10] [trace] HAZEL: Uniform buffers:
+[15:46:10] [trace] HAZEL:   _30_32
+[15:46:10] [trace] HAZEL:     Size = 64
+[15:46:10] [trace] HAZEL:     Binding = 0
+[15:46:10] [trace] HAZEL:     Members = 1
+[15:46:10] [trace] HAZEL: OpenGLShader::Reflect - GL_FRAGMENT_SHADER assets/shaders/Renderer2D_Line.glsl
+[15:46:10] [trace] HAZEL:     0 uniform buffers
+[15:46:10] [trace] HAZEL:     0 resources
+[15:46:10] [trace] HAZEL: Uniform buffers:
+[15:46:10] [warning] HAZEL: Shader creation took 20.3599 ms
+[15:46:10] [warning] HAZEL: Camera has 3 fields:
+[15:46:10] [warning] HAZEL:   OtherEntity (Entity)
+[15:46:10] [warning] HAZEL:   DistanceFromPlayer (Float)
+[15:46:10] [warning] HAZEL: Player has 4 fields:
+[15:46:10] [warning] HAZEL:   Speed (Float)
+[15:46:10] [warning] HAZEL:   Time (Float)
+[15:46:10] [error] HAZEL: Could not find component type Hazel.SpriteRendererComponent
+[15:46:10] [error] HAZEL: Could not find component type Hazel.CircleRendererComponent
+[15:46:10] [error] HAZEL: Could not find component type Hazel.CameraComponent
+[15:46:10] [error] HAZEL: Could not find component type Hazel.ScriptComponent
+[15:46:10] [error] HAZEL: Could not find component type Hazel.NativeScriptComponent
+[15:46:10] [error] HAZEL: Could not find component type Hazel.BoxCollider2DComponent
+[15:46:10] [error] HAZEL: Could not find component type Hazel.CircleCollider2DComponent
+[15:46:10] [trace] HAZEL: Deserializing scene 'Untitled'
+[15:46:10] [trace] HAZEL: Deserialized entity with ID = 8254140920860137284, name = Player
+[15:46:10] [trace] HAZEL: Deserialized entity with ID = 8804479042241551551, name = Circle
+[15:46:10] [trace] HAZEL: Deserialized entity with ID = 5134011587522944740, name = Floor
+[15:46:10] [trace] HAZEL: Deserialized entity with ID = 15045535320033348975, name = Block
+[15:46:10] [trace] HAZEL: Deserialized entity with ID = 4793924497264767156, name = Camera
+[15:46:10] [trace] HAZEL: Deserialized entity with ID = 16672940118998907085, name = Floor
