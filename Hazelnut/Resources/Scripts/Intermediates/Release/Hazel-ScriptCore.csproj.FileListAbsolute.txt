@@ -1,0 +1,6 @@
+C:\dev\GameEngine\series-scripting\Hazelnut\Resources\Scripts\Intermediates\Release\Hazel-ScriptCore.csproj.AssemblyReference.cache
+C:\dev\GameEngine\series-scripting\Hazelnut\Resources\Scripts\Intermediates\Release\Hazel-ScriptCore.csproj.CoreCompileInputs.cache
+C:\dev\GameEngine\series-scripting\Hazelnut\Resources\Scripts\Intermediates\Release\Hazel-ScriptCore.dll
+C:\dev\GameEngine\series-scripting\Hazelnut\Resources\Scripts\Intermediates\Release\Hazel-ScriptCore.pdb
+C:\dev\GameEngine\series-scripting\Hazelnut\Resources\Scripts\Hazel-ScriptCore.dll
+C:\dev\GameEngine\series-scripting\Hazelnut\Resources\Scripts\Hazel-ScriptCore.pdb

@@ -28,7 +28,7 @@ namespace Sandbox
 		{
 			Time += ts;
 
-			float speed = Speed * 1.0f;
+			float speed = Speed * 1.5f;
 			Vector3 velocity = Vector3.Zero;
 
 			if (Input.IsKeyDown(KeyCode.W))
