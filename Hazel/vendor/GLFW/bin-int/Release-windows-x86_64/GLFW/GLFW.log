@@ -13,4 +13,4 @@
   win32_time.c
   win32_window.c
   window.c
-  GLFW.vcxproj -> C:\dev\GameEngine\series-scripting\Hazel\vendor\GLFW\bin\Release-windows-x86_64\GLFW\GLFW.lib
+  GLFW.vcxproj -> C:\dev\Hazel-projects\Hazel\vendor\GLFW\bin\Release-windows-x86_64\GLFW\GLFW.lib

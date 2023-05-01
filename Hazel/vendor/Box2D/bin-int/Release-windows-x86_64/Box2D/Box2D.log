@@ -43,4 +43,4 @@
   b2_world.cpp
   b2_world_callbacks.cpp
   b2_rope.cpp
-  Box2D.vcxproj -> C:\dev\GameEngine\series-scripting\Hazel\vendor\Box2D\bin\Release-windows-x86_64\Box2D\Box2D.lib
+  Box2D.vcxproj -> C:\dev\Hazel-projects\Hazel\vendor\Box2D\bin\Release-windows-x86_64\Box2D\Box2D.lib

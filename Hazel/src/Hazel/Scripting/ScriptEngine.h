@@ -36,7 +36,7 @@ namespace Hazel {
 		MonoClassField* ClassField;
 	};
 
-	// Scriptfield + data storage
+	// ScriptField + data storage
 	struct ScriptFieldInstance
 	{
 		ScriptField Field;
@@ -56,7 +56,7 @@ namespace Hazel {
 		template<typename T>
 		void SetValue(T value)
 		{
-			static_assert(sizeof(T) <= 16,"Type too large!");
+			static_assert(sizeof(T) <= 16, "Type too large!");
 			memcpy(m_Buffer, &value, sizeof(T));
 		}
 	private:
@@ -105,7 +105,7 @@ namespace Hazel {
 		{
 			static_assert(sizeof(T) <= 16, "Type too large!");
 
-			bool success = GetFieldValueInternal(name, s_FieldValueBuffer);
+			bool success = GetFieldValueInternal(name, s_FieldValueBuffer);	
 			if (!success)
 				return T();
 
@@ -135,7 +135,7 @@ namespace Hazel {
 		inline static char s_FieldValueBuffer[16];
 
 		friend class ScriptEngine;
-		friend class ScriptFieldInstance;
+		friend struct ScriptFieldInstance;
 	};
 
 	class ScriptEngine
@@ -144,11 +144,11 @@ namespace Hazel {
 		static void Init();
 		static void Shutdown();
 
-		static void LoadAssembly(const std::filesystem::path& filepath);
-		static void LoadAppAssembly(const std::filesystem::path& filepath);
-
-		static void ReloadAssembly();
+		static bool LoadAssembly(const std::filesystem::path& filepath);
+		static bool LoadAppAssembly(const std::filesystem::path& filepath);
 		
+		static void ReloadAssembly();
+
 		static void OnRuntimeStart(Scene* scene);
 		static void OnRuntimeStop();
 
@@ -161,7 +161,7 @@ namespace Hazel {
 		
 		static Ref<ScriptClass> GetEntityClass(const std::string& name);
 		static std::unordered_map<std::string, Ref<ScriptClass>> GetEntityClasses();
-		static ScriptFieldMap& GetScriptFieldMap(Entity entity); 
+		static ScriptFieldMap& GetScriptFieldMap(Entity entity);
 		
 		static MonoImage* GetCoreAssemblyImage();
 

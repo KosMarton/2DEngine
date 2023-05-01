@@ -83,11 +83,9 @@ namespace Hazel {
 		CameraComponent(const CameraComponent&) = default;
 	};
 
-	// 
-
 	struct ScriptComponent
 	{
-		std::string ClassName; // 32 bytes
+		std::string ClassName;
 
 		ScriptComponent() = default;
 		ScriptComponent(const ScriptComponent&) = default;

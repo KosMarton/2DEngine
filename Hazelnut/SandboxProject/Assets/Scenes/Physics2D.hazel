@@ -4,7 +4,7 @@ Entities:
     TagComponent:
       Tag: Player
     TransformComponent:
-      Translation: [0.0120342616, 0.280494362, -9.31322575e-10]
+      Translation: [0.0495706201, 0.271503896, 0.0225147754]
       Rotation: [0, 0, -0.235084534]
       Scale: [0.361159712, 0.375572056, 0.848135769]
     ScriptComponent:
@@ -15,6 +15,7 @@ Entities:
           Data: 1.25
     SpriteRendererComponent:
       Color: [1, 1, 1, 1]
+      TexturePath: C:\dev\Hazel-projects\Hazelnut\SandboxProject\Assets\Textures\Checkerboard.png
       TilingFactor: 1
     Rigidbody2DComponent:
       BodyType: Dynamic
@@ -108,7 +109,9 @@ Entities:
     ScriptComponent:
       ClassName: Sandbox.Camera
       ScriptFields:
-        []
+        - Name: DistanceFromPlayer
+          Type: Float
+          Data: 5
   - Entity: 16672940118998907085
     TagComponent:
       Tag: Floor

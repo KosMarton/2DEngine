@@ -41,7 +41,7 @@ namespace Hazel
 			T component = new T() { Entity = this };
 			return component;
 		}
-
+		
 		public Entity FindEntityByName(string name)
 		{
 			ulong entityID = InternalCalls.Entity_FindEntityByName(name);
@@ -56,7 +56,7 @@ namespace Hazel
 			object instance = InternalCalls.GetScriptInstance(ID);
 			return instance as T;
 		}
-	
+
 	}
 
 }
